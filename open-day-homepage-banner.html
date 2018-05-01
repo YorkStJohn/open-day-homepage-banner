@@ -1,0 +1,134 @@
+<style>
+.full-banner-image::before {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0)!important;
+background: -webkit-radial-gradient(rgba(0,0,0,0))!important;
+background: -o-radial-gradient(rgba(0,0,0,0))!important;
+background: -moz-radial-gradient(rgba(0,0,0,0))!important;
+background: radial-gradient(rgba(0,0,0,0))!important;
+z-index: -1;
+}
+.full-banner-container {
+align-items: flex-end;
+-webkit-align-items: flex-end;
+-ms-flex-align: flex-end;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+}
+.i-will-element {
+-webkit-flex: 1 0 auto;
+-ms-flex: 1 0 auto;
+flex: 1 0 auto;
+}
+.i-will-element h1 {
+color: #0052A1;
+}
+.button-container {
+margin-bottom: 60px;
+}
+.full-banner-container h2 {
+text-align: right;
+color: #0052A1;
+margin-top: 15px;
+}
+.header-cta-button {
+font-size: 20px;
+font-weight: 700;
+transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;
+-webkit-transition: all .1s ease-in-out;
+padding: 17px 24px 14px;
+color: #ffffff;
+background-color: #C21A26;
+text-transform: uppercase;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+border-radius: 0px;
+}
+.header-cta-button:hover {
+color: #ffffff!important;
+background-color: #8A0000!important;
+}
+@media all and (min-width:1200px) {
+.i-will-element h1 {
+margin-top: 0.5em;
+padding: 0.2em 0.15em 0 0.1em;
+border: 5px solid #0052A1;
+font-size: 130px;
+}
+.full-banner-container h2 {
+font-size: 30px;
+}
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+.i-will-element h1 {
+margin-top: 0.5em;
+padding: 0.2em 0.15em 0 0.1em;
+border: 4px solid #0052A1;
+font-size: 100px;
+}
+.full-banner-container h2 {
+font-size: 26px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+.i-will-element h1 {
+margin-top: 0.5em;
+padding: 0.2em 0.15em 0 0.1em;
+border: 3px solid #0052A1;
+font-size: 90px;
+}
+.full-banner-container h2 {
+font-size: 22px;
+}
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+.i-will-element h1 {
+margin-top: 0.5em;
+padding: 0.2em 0.15em 0 0.1em;
+border: 3px solid #0052A1;
+font-size: 60px;
+letter-spacing: -3px;
+}
+.full-banner-container h2 {
+font-size: 18px;
+}
+.full-banner-image {
+background-position: 25%;
+}
+}
+@media all and (max-width: 479px) {
+.i-will-element h1 {
+margin-top: 0.5em;
+padding: 0.2em 0.15em 0 0.1em;
+border: 3px solid #0052A1;
+font-size: 40px;
+letter-spacing: -2px;
+}
+.full-banner-container h2 {
+font-size: 16px;
+}
+.full-banner-image {
+background-position: 25%;
+}
+.button-container {
+align-self: center
+}
+}
+</style>
+<header class="full-banner-image" style="background-image: url(https://www.yorksj.ac.uk/media/content-assets/homepage/minster-background.jpg);">
+    <div class="inner full-banner-container">
+        <div class="i-will-element">
+            <h1>Open days</h1>
+            <h2>2 July 2018</h2>
+        </div>
+        <span class="button-container">
+            <a href="https://www.yorksj.ac.uk/study/undergraduate/visit-us/" class="header-cta-button">Book your place</a>
+        </span>
+    </div>
+</header>
